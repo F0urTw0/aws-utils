@@ -1,0 +1,31 @@
+{
+  "name": "aws-utils",
+  "version": "1.0.0",
+  "description": "Services and little hacks to work with AWS.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"postinstall": "typings install && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F0urTw0/aws-utils.git"
+  },
+  "author": "Bigous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F0urTw0/aws-utils/issues"
+  },
+  "homepage": "https://github.com/F0urTw0/aws-utils#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "aws-sdk": "^2.3.17",
+    "commander": "^2.9.0",
+    "ts-node": "^0.7.3",
+    "typescript": "^1.8.10"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "aws-utils": "index.js"
+  }
+}
