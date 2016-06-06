@@ -12,7 +12,7 @@
     "url": "git+https://github.com/F0urTw0/aws-utils.git"
   },
   "author": "Bigous",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/F0urTw0/aws-utils/issues"
   },
