@@ -81,4 +81,6 @@ if (cmd.list) {
 			console.log(data);
 		}
 	});
+} else {
+	commander.help();
 }
