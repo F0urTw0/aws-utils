@@ -4,7 +4,8 @@
   "description": "Services and little hacks to work with AWS.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "typings install && tsc"
+    "postinstall": "typings install && tsc",
+    "prepublish": "typings install && tsc"
   },
   "repository": {
     "type": "git",
